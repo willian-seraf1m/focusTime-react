@@ -24,7 +24,7 @@ export function NewCycleForm() {
         <option value="projeto 3" />
       </datalist>
 
-      <label htmlFor="">durante</label>
+      <label>durante</label>
       <MinutesAmountInput
         type="number"
         id="minutesAmount"
