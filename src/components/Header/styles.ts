@@ -8,6 +8,17 @@ export const HeaderContainer = styled.header`
   .logoContainer {
     display: flex;
     gap: 8px;
+
+    button {
+      color: ${(props) => props.theme.colors['primary-text-color']};
+      background: none;
+      border: 0;
+      transition: color 0.4s;
+
+      &:hover {
+        color: ${(props) => props.theme.colors['green-500']};
+      }
+    }
   }
 
   nav {
@@ -23,7 +34,7 @@ export const HeaderContainer = styled.header`
     justify-content: center;
     align-items: center;
 
-    color: ${(props) => props.theme['gray-100']};
+    color: ${(props) => props.theme.colors['primary-text-color']};
 
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
@@ -31,11 +42,11 @@ export const HeaderContainer = styled.header`
     transition: 0.3s;
 
     &:hover {
-      border-bottom: 3px solid ${(props) => props.theme['green-500']};
+      border-bottom: 3px solid ${(props) => props.theme.colors['green-500']};
     }
 
     &.active {
-      color: ${(props) => props.theme['green-500']};
+      color: ${(props) => props.theme.colors['green-500']};
     }
   }
 `

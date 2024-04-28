@@ -1,25 +1,27 @@
 export const lightTheme = {
-  white: '#FFF',
+  name: 'light',
 
-  'gray-100': '#000',
-  // 'gray-100': '#E1E1E6',
-  'gray-300': '#C4C4CC',
-  'gray-400': '#8D8D99',
-  'gray-500': '#7C7C8A',
-  'gray-600': '#323238',
-  'gray-700': '#E1E1E6',
-  // 'gray-700': '#29292E',
-  'gray-800': '#fff',
-  // 'gray-800': '#202024',
-  'gray-900': '#00B37E',
-  // 'gray-900': '#121214',
+  colors: {
+    white: '#FFF',
 
-  'green-300': '#00B37E',
-  'green-500': '#00875F',
-  'green-700': '#015F43',
+    'primary-text-color': '#323238',
+    'secondary-text-color': '#000',
 
-  'red-500': '#AB222E',
-  'red-700': '#7A1921',
+    'button-text-color': '#fff',
 
-  'yellow-500': '#FBA94C',
+    'placeholder-color': '#7C7C8A',
+    'header-table-color': '#c9c9c9',
+    'body-table-color': '#E1E1E6',
+    'main-background-color': '#fff',
+    'background-color': '#54b397',
+
+    'green-300': '#00B37E',
+    'green-500': '#00875F',
+    'green-700': '#015F43',
+
+    'red-500': '#AB222E',
+    'red-700': '#7A1921',
+
+    'yellow-500': '#FBA94C',
+  },
 }

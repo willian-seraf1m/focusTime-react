@@ -9,7 +9,7 @@ export const HistoryContainer = styled.main`
 
   h1 {
     font-size: 1.5rem;
-    color: ${(props) => props.theme['green-100']};
+    color: ${(props) => props.theme.colors['primary-text-color']};
   }
 `
 
@@ -24,10 +24,10 @@ export const HistoryList = styled.main`
     min-width: 600px;
 
     th {
-      background-color: ${(props) => props.theme['gray-600']};
+      background-color: ${(props) => props.theme.colors['header-table-color']};
       padding: 1rem;
       text-align: left;
-      color: ${(props) => props.theme['gray-100']};
+      color: ${(props) => props.theme.colors['primary-text-color']};
       font-size: 0.875rem;
       line-height: 1.6rem;
 
@@ -43,8 +43,9 @@ export const HistoryList = styled.main`
     }
 
     td {
-      background-color: ${(props) => props.theme['gray-700']};
-      border-top: 4px solid ${(props) => props.theme['gray-800']};
+      background-color: ${(props) => props.theme.colors['body-table-color']};
+      border-top: 4px solid
+        ${(props) => props.theme.colors['main-background-color']};
       padding: 1rem;
       font-size: 0.875rem;
       line-height: 1.6;
@@ -68,7 +69,7 @@ const STATUS_COLORS = {
 } as const
 
 interface StatusProps {
-  statuscolor: keyof typeof STATUS_COLORS
+  statusColor: keyof typeof STATUS_COLORS
 }
 
 export const Status = styled.span<StatusProps>`
@@ -81,6 +82,7 @@ export const Status = styled.span<StatusProps>`
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background: ${(props) => props.theme[STATUS_COLORS[props.statuscolor]]};
+    background: ${(props) =>
+      props.theme.colors[STATUS_COLORS[props.statusColor]]};
   }
 `
