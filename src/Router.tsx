@@ -8,8 +8,8 @@ export function Router() {
   return (
     <Routes>
       <Route path="/focusTime-react" element={<DefaultLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/history" element={<History />} />
+        <Route path="/focusTime-react" element={<Home />} />
+        <Route path="/focusTime-react/history" element={<History />} />
       </Route>
     </Routes>
   )
