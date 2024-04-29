@@ -304,7 +304,7 @@ Error generating stack: `+o.message+`
 
   display: flex;
   flex-direction: column;
-`;function N_(){return O.jsxs(L_,{children:[O.jsx(P_,{}),O.jsx(rg,{})]})}function j_(){return O.jsx(og,{children:O.jsxs(cs,{path:"/",element:O.jsx(N_,{}),children:[O.jsx(cs,{path:"/",element:O.jsx(Ww,{})}),O.jsx(cs,{path:"/history",element:O.jsx(w_,{})})]})})}const T_=x2`
+`;function N_(){return O.jsxs(L_,{children:[O.jsx(P_,{}),O.jsx(rg,{})]})}function j_(){return O.jsx(og,{children:O.jsxs(cs,{path:"/focusTime-react",element:O.jsx(N_,{}),children:[O.jsx(cs,{path:"/focusTime-react",element:O.jsx(Ww,{})}),O.jsx(cs,{path:"/focusTime-react/history",element:O.jsx(w_,{})})]})})}const T_=x2`
   * {
     margin: 0;
     padding: 0;
