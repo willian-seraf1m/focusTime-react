@@ -11,7 +11,7 @@ import { ThemeModeContextProvider } from './contexts/ThemeModeContext'
 export function App() {
   return (
     <ThemeModeContextProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/FocusTime-react">
         <CyclesContextProvider>
           <CountdownContextProvider>
             <Router />

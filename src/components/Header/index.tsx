@@ -26,10 +26,10 @@ export function Header() {
         </button>
       </div>
       <nav>
-        <NavLink to="/focusTime-react/" title="Timer">
+        <NavLink to="/" title="Timer">
           <Timer size={24} />
         </NavLink>
-        <NavLink to="/focusTime-react/history" title="Histórico">
+        <NavLink to="/history" title="Histórico">
           <Scroll size={24} />
         </NavLink>
       </nav>
