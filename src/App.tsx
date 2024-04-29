@@ -5,6 +5,7 @@ import { Router } from './Router'
 
 import { GlobalStyle } from './styles/global'
 import { CyclesContextProvider } from './contexts/CyclesContext'
+import { CountdownContextProvider } from './contexts/CountdownContext'
 import { ThemeModeContextProvider } from './contexts/ThemeModeContext'
 
 export function App() {
@@ -12,7 +13,9 @@ export function App() {
     <ThemeModeContextProvider>
       <BrowserRouter>
         <CyclesContextProvider>
-          <Router />
+          <CountdownContextProvider>
+            <Router />
+          </CountdownContextProvider>
         </CyclesContextProvider>
       </BrowserRouter>
       <GlobalStyle />
