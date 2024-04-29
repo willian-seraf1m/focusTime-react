@@ -7,9 +7,9 @@ import { DefaultLayout } from './layouts/DefaultLayout'
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<DefaultLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/history" element={<History />} />
+      <Route path="/focusTime-react" element={<DefaultLayout />}>
+        <Route path="/focusTime-react/" element={<Home />} />
+        <Route path="/focusTime-react/history" element={<History />} />
       </Route>
     </Routes>
   )
