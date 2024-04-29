@@ -26,7 +26,7 @@ export function Header() {
         </button>
       </div>
       <nav>
-        <NavLink to="/focusTime-react/" title="Timer">
+        <NavLink to="/focusTime-react/timer" title="Timer">
           <Timer size={24} />
         </NavLink>
         <NavLink to="/focusTime-react/history" title="Histórico">
