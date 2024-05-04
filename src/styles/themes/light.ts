@@ -10,8 +10,8 @@ export const lightTheme = {
     'button-text-color': '#fff',
 
     'placeholder-color': '#7C7C8A',
-    'header-table-color': '#c9c9c9',
-    'body-table-color': '#E1E1E6',
+    'header-table-color': '#e7e7e7',
+    'body-table-color': '#f4f4f4',
     'main-background-color': '#fff',
     'background-color': '#54b397',
 

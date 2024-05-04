@@ -18,12 +18,20 @@ export const HistoryList = styled.main`
   overflow: auto;
   margin-top: 2rem;
 
+  .tableContainer {
+    height: 380px;
+    overflow: auto;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
     min-width: 600px;
 
     th {
+      position: sticky;
+      top: 0;
+
       background-color: ${(props) => props.theme.colors['header-table-color']};
       padding: 1rem;
       text-align: left;
