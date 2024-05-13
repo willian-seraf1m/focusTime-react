@@ -14,6 +14,10 @@ export const HomeContainer = styled.main`
     align-items: center;
     gap: 3.5rem;
   }
+
+  @media (max-width: 720px) {
+    justify-content: start;
+  }
 `
 
 export const BaseCountdownButton = styled.button`

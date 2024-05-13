@@ -11,6 +11,10 @@ export const HistoryContainer = styled.main`
     font-size: 1.5rem;
     color: ${(props) => props.theme.colors['primary-text-color']};
   }
+
+  @media (max-width: 720px) {
+    padding: 0.5rem;
+  }
 `
 
 export const HistoryList = styled.main`
@@ -66,6 +70,20 @@ export const HistoryList = styled.main`
       &:last-child {
         padding-right: 1.5rem;
       }
+
+      @media (max-width: 720px) {
+        font-size: 0.75rem;
+
+        &:first-child {
+          width: 30%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    .tableContainer {
+      height: 700px;
     }
   }
 `

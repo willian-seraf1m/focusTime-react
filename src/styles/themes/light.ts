@@ -10,9 +10,9 @@ export const lightTheme = {
     'button-text-color': '#fff',
 
     'placeholder-color': '#7C7C8A',
-    'header-table-color': '#e7e7e7',
+    'header-table-color': '#dddddd',
     'body-table-color': '#f4f4f4',
-    'main-background-color': '#fff',
+    'main-background-color': '#e8e8e8',
     'background-color': '#54b397',
 
     'green-300': '#00B37E',

@@ -9,10 +9,32 @@ export const CountdownContainer = styled.div`
   display: flex;
   gap: 1rem;
 
-  span {
-    background: ${(props) => props.theme.colors['body-table-color']};
-    padding: 2rem 1rem;
-    border-radius: 8px;
+  .timeContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .separatorContainer {
+    @media (max-width: 720px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    gap: 0;
+    font-size: 8rem;
+  }
+`
+
+export const Time = styled.span`
+  background: ${(props) => props.theme.colors['body-table-color']};
+  padding: 2rem 1rem;
+  border-radius: 8px;
+
+  @media (max-width: 720px) {
+    margin-top: 1rem;
   }
 `
 

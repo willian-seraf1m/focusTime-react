@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { CountdownContainer, Separator } from './styles'
+import { CountdownContainer, Separator, Time } from './styles'
 import { CountdownContext } from '../../../../contexts/CountdownContext'
 
 export function Countdown() {
@@ -7,11 +7,17 @@ export function Countdown() {
 
   return (
     <CountdownContainer>
-      <span>{minutes[0]}</span>
-      <span>{minutes[1]}</span>
-      <Separator>:</Separator>
-      <span>{seconds[0]}</span>
-      <span>{seconds[1]}</span>
+      <div className="timeContainer">
+        <Time>{minutes[0]}</Time>
+        <Time>{minutes[1]}</Time>
+      </div>
+      <div className="separatorContainer">
+        <Separator>:</Separator>
+      </div>
+      <div className="timeContainer">
+        <Time>{seconds[0]}</Time>
+        <Time>{seconds[1]}</Time>
+      </div>
     </CountdownContainer>
   )
 }
