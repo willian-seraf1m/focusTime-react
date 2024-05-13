@@ -1,8 +1,11 @@
 # Sobre o Projeto
 
-O projeto consiste em um Pomodoro feito com ReactJS e Styled-components. Foi uma grande oportunidade de aprendizado, onde mergulhei de cabeça em várias tecnologias e ferramentas, algumas que eu já conhecia e outras que tive o prazer de conhecer por meio desse projeto.
+O projeto consiste em um Pomodoro feito com ReactJS e Styled-components.
 
-💡 **O que aprendi:**
+<br/>
+
+
+### 💡 O que aprendi:
 
 - Aprofundei meu conhecimento em ReactJS.
 
@@ -16,13 +19,17 @@ O projeto consiste em um Pomodoro feito com ReactJS e Styled-components. Foi uma
 
 - Explorei os Hooks do React e a Context API.
 
-🔍 **O que o projeto oferece:**
+  <br/>
+
+### 🔍 O que o projeto oferece:
 
 - Um Pomodoro que permite que você crie ciclos, com nomes de tarefas e tempo de duração.
 
 - Uma página de histórico dos ciclos, que permite visualizar o status de cada um deles. Você pode ver se o ciclo está em andamento, se foi concluído ou interrompido.
 
 - Também fiz algumas implementações adicionais, aplicando responsividade na aplicação e tema claro.
+
+<br/>
 
 # Layout do projeto
 
